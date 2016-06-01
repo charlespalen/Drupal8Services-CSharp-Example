@@ -19,8 +19,6 @@ Should be able to be used in C# applications; but targeted for use in Unity3D.
 THIS CLASS BLOCKS FOR AN UNDEFINED AMOUNT OF TIME WHILE PREFORMING THE WEB REQUESTS
 
 ## Example
-`
-DrupalInterface _drup = new DrupalInterface("http://127.0.0.1","YourUsername","YourPassword");
-// Get the data in node 1 using basic auth from the drupal site at 127.0.0.1
-_drup.getNode(1);
-`
+Get the data in node 1 using basic auth from the drupal site at 127.0.0.1
+`DrupalInterface _drup = new DrupalInterface("http://127.0.0.1","YourUsername","YourPassword");`
+`_drup.getNode(1);`

@@ -20,5 +20,7 @@ THIS CLASS BLOCKS FOR AN UNDEFINED AMOUNT OF TIME WHILE PREFORMING THE WEB REQUE
 
 ## Example
 Get the data in node 1 using basic auth from the drupal site at 127.0.0.1
+
 `DrupalInterface _drup = new DrupalInterface("http://127.0.0.1","YourUsername","YourPassword");`
+
 `_drup.getNode(1);`
